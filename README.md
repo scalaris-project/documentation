@@ -1,0 +1,151 @@
+# Scalaris Documentation
+This repository contains the source code for Scalaris's [documentation portal website](https://docs.scalaris.info). These documents are currently under progressive and iterative development.
+
+> Powered by [MkDocs](https://github.com/mkdocs/mkdocs/) and [MkDocs Material](https://github.com/squidfunk/mkdocs-material).
+
+
+## Contributing
+In order to contribute to this project, fork the repository and in your own forked repository create a new branch off `draft`. In this new branch you can commit and push your updates by following the [Editing](#Editing) guidelines stated below in this README. Subsequently, create a pull request to merge from your forked repository `draft` branch into the original repository `draft` branch.
+
+If you're not familiar enough with for how to do this, feel free to create a [Github issue](https://github.com/scalaris-project/documentation/issues/new) with corrections, edits, or additions. If you have a lot of content to add, the best method would be to enter the content into a Google Doc (with settings set to public comments allowed) and link that in your Github issue.
+
+
+## Getting Started
+MkDocs supports Python versions 2.7, 3.4, 3.5, 3.6, 3.7, 3.8 and pypy.
+
+Using Linux, MacOS and Windows 10:
+
+```shell
+# go to directory where you want to clone the repository. (e.g., cd ./src/repos)
+
+# clone this repo
+git clone https://github.com/scalaris-project/documentation.git
+
+# change directory to documentation
+
+cd documentation
+
+# create a virtual environment
+python -m venv venv
+
+# activate virtual environment
+# for Linux and MacOS
+source ./venv/bin/activate
+
+# for Windows 10
+.\venv\Scripts\activate.bat # cmd.exe
+.\venv\Scripts\Activate.ps1 # PowerShell
+
+# install dependencies in virtual environment
+python -m pip install -r requirements.txt
+```
+
+Run dev server:
+
+```
+# use from within /documentation/
+mkdocs serve
+```
+
+This will compile the docs and output the localhost address where the changes can be previewed:
+
+```
+$ mkdocs serve
+INFO    -  Building documentation...
+INFO    -  Cleaning site directory
+[I 160402 15:50:43 server:271] Serving on http://127.0.0.1:8000
+[I 160402 15:50:43 handlers:58] Start watching changes
+[I 160402 15:50:43 handlers:60] Start detecting changes
+```
+
+You can now see the docs at `http://127.0.0.1:8000/`. This will reload automatically when changes are saved. Note that the address is not always the same so it's best to check the output for the correct address.
+
+Exit the virtual environment:
+```
+deactivate
+```
+
+
+## Editing
+
+* __Syntax__ - These documents use [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) along with additional syntax for specialty formatting:
+	* [Informational cards](https://squidfunk.github.io/mkdocs-material/extensions/admonition/)
+	* [Meta data](https://squidfunk.github.io/mkdocs-material/extensions/metadata/)
+	* [Snippets](https://facelessuser.github.io/pymdown-extensions/extensions/snippets/)
+	* [Code superfences](https://facelessuser.github.io/pymdown-extensions/extensions/superfences/)
+* __Content__ 
+	* For better navigation, instructions for different OS's should be nested in a collapsible panel.
+	* Any repeatable sections should be made into a snippet.
+	* Page sections should be separated with a diver line `---`.
+* __Layout__ - The page meta tags are managed with `theme/main.html` and styling s managed in `docs/css/style.css`.
+* __Informational Cards__:
+	* Types - note, abstract, info, tip, warning, danger, bug, example, quote
+	* Standard - `!!! type "title"`
+	* No Title - `!!! type ""`
+	* Collapsible (default closed) - `??? type "title"`
+	* Collapsible (default open) - `???+ type "title"`
+* __Formatting Conventions__: 
+	* __Styling__:
+		* *Italics* - Referencing menu/button text (*Settings*, *Submit*, *Cancel*, etc)
+		* __*Bold+Italics*__ - Word emphasis (__*available*__ balances, __*fully*__ unlock)
+		* __Bold__ - Sub-subsection titles
+		* `__Bold Bullet Point__`
+		* `inline code` - Reference code, commands (`servicenode list`), calls (`dxGetOrders`), file contents (`ExchangeWallets=`), state (`finished`), parameters (`dryrun`) , files (`scalaris.conf`), directories (`Scalaris/`)
+		* ` ```code block``` ` - Multiline code or fule contents or anything that might need to be copied such as single line commands.
+	* __Images__ - `![optional alt text](imagelink "optional hover text")`
+	* __Spacing__:
+		* Do not skip a line after section headers.
+		* Tables require a newline above and below them for parsing/formatting.
+		* Informational panels require a newline above and below them for parsing/formatting.
+		* Lists require a newline above and below them for parsing/formatting.
+* __Internal Linking__:
+	* __Correct__:
+		* `[](/folder_path/page)`
+		* `[](/folder_path/page#section)`
+		* `[](/folder_path/page/)`
+		* `[](/folder_path/page/#section)`
+	* __Incorrect__:
+		* `[](folder_path/page)`
+		* `[](folder_path/page#section)`
+		* `[](../folder_path/page)`
+		* `[](../folder_path/page#section)`
+		* `[](/folder_path/page.md)`
+		* `[](/folder_path/page.md#section)`
+		* `[](/folder_path/page.html)`
+		* `[](/folder_path/page.html#section)`
+
+See full wiki: [MkDocs]](https://www.mkdocs.org/) | [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)
+
+
+
+
+## Adding Pages
+
+1. Create a markdown file (`.md`) within one of the directories in the `docs/` folder.
+1. Add a `title:` and `description:` at the top of the file.
+1. Add an `--8<-- "extras.md"` tag at the end of the file.
+1. Add a link to the menu (if needed) by listing it under `nav:` in `mkdocs.yml`.
+1. Preview the page to make sure everything is rendering correctly.
+
+
+
+
+## Creating and Using Snippets
+
+1. Create a markdown file (`.md`) within the `snippets/` directory.
+1. Use `--8<-- "snippetfilename.md"` tag to embed the snippet in a page.
+	* The filenames are relative to the `snippets/` directory.
+1. Preview the page to make sure everything is rendering correctly.
+
+
+
+
+## Publishing
+
+1. Build the docs with the `mkdocs build` command.
+1. In the `site/` directory, remove any folders and subfolders that begin with `-`. This prefix is manually used to flag pages that have not been completed yet.
+1. Deploy `site/` contents to staging site for testing.
+1. Deploy `site/` contents to [https://docs.scalaris.info/](https://docs.scalaris.info/).
+
+
+
