@@ -112,15 +112,15 @@ on the Github release page as
 [plain text in the release notes](https://github.com/scalaris-project/scalaris-dx/releases/). The
 format follows `SHA256-hash <filename>`. Here is an example of the hashes:
 ```
-4a6bd1ad96edf6b052e9929633f978a9a06c85552091a5df1e9bf0bda18ee449  Scalaris-DX-1.9.0-linux-amd64.deb
-d90ad1ff0797fc30d749597252718cb7c52843e1020818edb2fbb2a8dbaf95d0  Scalaris-DX-1.9.0-linux-armv7l.AppImage
-9fdda89ef175621e052b6ff8dbb6ab0826c6bc85e1f380c0ea967f638577373b  Scalaris-DX-1.9.0-linux-x64.tar.gz
-2d23161771b6bcec2a6c6242e872638ac7c6be7864f4bb74df4d7af723716a94  Scalaris-DX-1.9.0-linux-x86_64.AppImage
-83e07323a04873a96264f6f46f541956adfa0f86d17986d6278f773660e704db  Scalaris-DX-1.9.0-mac.dmg
-6e8211d56204acd155273c19329eea629ff5fc6195e178e026734cc3b3ce354f  Scalaris-DX-1.9.0-mac.zip
-45b239611cd4e248d291cd33a9ac7dede927ed4313b29d3eb5728c38420066f2  Scalaris-DX-1.9.0-win-ia32.zip
-cc29caeae49b6f99e28b36f64e678267be46a14526fbef4a311acc215aaa3c79  Scalaris-DX-1.9.0-win-x64.zip
-8be6d4bde7fa182d68047524671ac61b3366c9b3e8f241bf2493e001fa3502ef  Scalaris-DX-1.9.0-win.exe
+4a6bd1ad96edf6b052e9929633f978a9a06c85552091a5df1e9bf0bda18ee449  Scalaris-DX-1.0.0-linux-amd64.deb
+d90ad1ff0797fc30d749597252718cb7c52843e1020818edb2fbb2a8dbaf95d0  Scalaris-DX-1.0.0-linux-armv7l.AppImage
+9fdda89ef175621e052b6ff8dbb6ab0826c6bc85e1f380c0ea967f638577373b  Scalaris-DX-1.0.0-linux-x64.tar.gz
+2d23161771b6bcec2a6c6242e872638ac7c6be7864f4bb74df4d7af723716a94  Scalaris-DX-1.0.0-linux-x86_64.AppImage
+83e07323a04873a96264f6f46f541956adfa0f86d17986d6278f773660e704db  Scalaris-DX-1.0.0-mac.dmg
+6e8211d56204acd155273c19329eea629ff5fc6195e178e026734cc3b3ce354f  Scalaris-DX-1.0.0-mac.zip
+45b239611cd4e248d291cd33a9ac7dede927ed4313b29d3eb5728c38420066f2  Scalaris-DX-1.0.0-win-ia32.zip
+cc29caeae49b6f99e28b36f64e678267be46a14526fbef4a311acc215aaa3c79  Scalaris-DX-1.0.0-win-x64.zip
+8be6d4bde7fa182d68047524671ac61b3366c9b3e8f241bf2493e001fa3502ef  Scalaris-DX-1.0.0-win.exe
 ```
 1. Take a note of the hash for the specific file you downloaded.
 1. Get the sha256 hash of the file you downloaded:
@@ -130,14 +130,14 @@ cc29caeae49b6f99e28b36f64e678267be46a14526fbef4a311acc215aaa3c79  Scalaris-DX-1.
 		1. Navigate to the location of the downloaded file.
 		1. Enter `certUtil -hashfile filename SHA256` with `filename` replaced by the name fo the file you downloaded. 
 		
-		**Example**: `certUtil -hashfile Scalaris-DX-1.9.0-win.exe SHA256`
+		**Example**: `certUtil -hashfile Scalaris-DX-1.0.0-win.exe SHA256`
 
 	??? example "MacOS"
 		1. Open the terminal.
 		1. Navigate to the location of the downloaded file.
 		1. Enter `shasum -a 256 filename` with `filename` replaced by the name fo the file you downloaded. 
 		
-		**Example**: `shasum -a 256 Scalaris-DX-1.9.0-mac.dmg`
+		**Example**: `shasum -a 256 Scalaris-DX-1.0.0-mac.dmg`
 
 	??? example "Linux"
 		1. Open the terminal.

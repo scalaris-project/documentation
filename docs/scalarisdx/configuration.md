@@ -14,7 +14,7 @@ description: This guide explains how to configure wallets for trading on Scalari
 	??? info "Note: Lite wallets in general, and Electrum wallets, are not supported."
 		Due to the interactions the wallet needs to make to ensure secure trading, lite wallets and Electrum wallets are not currently supported. However, Scalaris's XRouter allows for the development of decentralized, noncustodial SPV wallets
 	??? tip "Tip for Goldcoin (GLC) traders"
-		1. Make sure you have [installed the latest ScalarisDX (v1.9.0 or greater)](/scalarisdx/installation/#install-scalaris-dx)
+		1. Make sure you have [installed the latest ScalarisDX (v1.0.0 or greater)](/scalarisdx/installation/#install-scalaris-dx)
 		1. Make sure you have [installed the latest version of Goldcoin wallet (v0.14.7 or above)](https://www.goldcoinproject.org)
 		1. If you created your Goldcoin wallet using an earlier version of the Goldcoin wallet app, you may have a Goldcoin data directory named, `GoldCoin (GLD)`.  You can check this by navigating in a File Explorer (Windows) or Finder (Mac) to this location:
 			- Windows: ` %appdata%\Roaming`
