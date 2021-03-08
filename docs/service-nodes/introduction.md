@@ -33,7 +33,7 @@ For XRouter and XCloud services, it's a free market model where you are able to 
 
 XCloud service can vary widely and not everything requires coding. For instance, you can setup a plugin file that allows you to offer CoinMarketCap pricing info via your Service Node for developers to use on-chain. You can set this up in a minute without any programming. This is just one example of an extremely useful service for developers. Not only do they want access to this data, but offering it through Scalaris allows them to pay in crypto, which is much simpler than needing to deal with fiat payments paid via on-chain functions.
 
-More documentation will be added here progressively, but if you have any questions in the meantime feel free to ask in our [Discord](https://discord.gg/HKbdGANbZA) or [Telegram](https://t.me/scalaris_project).
+More documentation will be added here progressively, but if you have any questions in the meantime feel free to ask in our [Discord](https://discord.gg/ZeUMV2kcaQ) or [Telegram](https://t.me/scalaris_project).
 
 
 

@@ -15,7 +15,7 @@ Being integrated with Scalaris holds many benefits. Not only does it allow an as
 
 Integration of assets is a free and open process, without permission required. All configuration files are located in Scalaris's [blockchain-configuration-files](https://github.com/scalaris-project/blockchain-configuration-files/) Github repository.
 
-If you would like to have a digital asset supported, please ask a member of that project to create a pull request or ask someone from community at [Discord](https://discord.gg/HKbdGANbZA) in listing chanel to help you.
+If you would like to have a digital asset supported, please ask a member of that project to create a pull request or ask someone from community at [Discord](https://discord.gg/ZeUMV2kcaQ) in listing chanel to help you.
 
 #### Blockchain Requirements
 In order for for a blockchain to be compatible it must support JSON RPC, CLTV atomic swaps, and the following calls:

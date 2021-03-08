@@ -3,7 +3,7 @@ description: A compiled list of frequently asked questions about Scalaris DX, in
 
 
 # Scalaris DX FAQs (Frequently Asked Questions)
-Below are a list of Scalaris DX frequently asked questions. For any questions not answered below, please join the Scalaris community on Discord for further discussion: [Discord Invite](https://discord.gg/HKbdGANbZA) or [Telegram](https://t.me/scalaris_project)
+Below are a list of Scalaris DX frequently asked questions. For any questions not answered below, please join the Scalaris community on Discord for further discussion: [Discord Invite](https://discord.gg/ZeUMV2kcaQ) or [Telegram](https://t.me/scalaris_project)
 
 ???+ question "My version of [blockchain] wallet isn’t one of the options to select in the set up process. Can I use this version? Will it still work?""
 	Only use wallet versions that are listed. If a version is not listed, it has either not been tested yet or is not compatible. Using a wallet version not listed may result in failed trades or loss of funds.

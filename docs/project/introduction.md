@@ -12,7 +12,7 @@ Scalaris is a decentralized, [community-governed](/governance/introduction), [se
 
 The project was founded on the principles of openness, transparency, and maintaining a high level of decentralization. These principles apply to both our community and protocol, which are aimed to bring blockchains and communities together.
 
-Scalaris is unique in that there is no company or foundation behind the project. Instead, Scalaris is [self-governed](/governance/introduction) by its stakeholders, meaning that stakers, token-holders, [Service Node](/service-nodes/introduction) operators and others with a stake in the blockchain have the ability to make decisions together. This self-governance is maintained through a Superblock mechanism, as well as open communication in our [Discord](https://discord.gg/HKbdGANbZA). 
+Scalaris is unique in that there is no company or foundation behind the project. Instead, Scalaris is [self-governed](/governance/introduction) by its stakeholders, meaning that stakers, token-holders, [Service Node](/service-nodes/introduction) operators and others with a stake in the blockchain have the ability to make decisions together. This self-governance is maintained through a Superblock mechanism, as well as open communication in our [Discord](https://discord.gg/ZeUMV2kcaQ). 
 
 The project is also open-source, meaning anybody can contribute. From development, to content creation, to tools and services, we welcome all and encourage you to take part! You have the freedom to lead up your own project, collaborate with others at your own pace, or come and go as you please. We’re also always working to develop and improve our collaboration process, so if there’s any suggestions on ways to better the process we’d love to hear it!
 

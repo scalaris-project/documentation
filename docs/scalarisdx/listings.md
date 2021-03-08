@@ -15,7 +15,7 @@ digital asset listed, the first step is to confirm the asset meets the following
 requirements. If it doesn't currently meet all these requirements, please work with
 the developers of the project/asset to ensure they
 are all met. If you have questions about any of these requirements, please
-[join Scalaris Discord Server](https://discord.gg/HKbdGANbZA) or [join Scalaris Telegram](https://t.me/scalaris_project) and ask your
+[join Scalaris Discord Server](https://discord.gg/ZeUMV2kcaQ) or [join Scalaris Telegram](https://t.me/scalaris_project) and ask your
 questions in the *#scalaris-dx-listing* channel.
 
 #### Requirements
@@ -60,7 +60,7 @@ you are ready to proceed to the next step in listing your asset. At this point, 
        asset is expected to have high trade volume, you might
        even find someone to host it for free.) To look for someone to
        host your asset on their Service Node,
-       [join Scalaris Discord Server](https://discord.gg/HKbdGANbZA) or [join Scalaris Telegram](https://t.me/scalaris_project)
+       [join Scalaris Discord Server](https://discord.gg/ZeUMV2kcaQ) or [join Scalaris Telegram](https://t.me/scalaris_project)
        and ask around in the *#scalaris-dx-listing* channel.
 
 	1. If you can meet criteria 1, 2 & 3 above, use [Git Fork-and-Branch](https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/) workflow to:
@@ -89,7 +89,7 @@ you are ready to proceed to the next step in listing your asset. At this point, 
 
 	This option is obviously not 100% free, but there are Scalaris Community members who are willing to do the work of listing & testing your asset, and also willing to host your asset on their Service Node at very reasonable rates. To pursue this option:
 
-	1. [join Scalaris Discord Server](https://discord.gg/HKbdGANbZA) or [join Scalaris Telegram](https://t.me/scalaris_project)
+	1. [join Scalaris Discord Server](https://discord.gg/ZeUMV2kcaQ) or [join Scalaris Telegram](https://t.me/scalaris_project)
 	1. Navigate to the *#scalaris-dx-listing* channel in Scalaris Discord.
 	1. Post a message requesting __listing__ and __hosting__ services, tagging
 

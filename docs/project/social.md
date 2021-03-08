@@ -19,7 +19,7 @@ description:
 </div>
 
 <div class="social">
-	<a href="https://discord.gg/HKbdGANbZA" target="_blank"><i class="fa fa-comments fa-5x" aria-hidden="true"></i></a>
+	<a href="https://discord.gg/ZeUMV2kcaQ" target="_blank"><i class="fa fa-comments fa-5x" aria-hidden="true"></i></a>
 	<div class="name">Discord</div>
 </div>
 
