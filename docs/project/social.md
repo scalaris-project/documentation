@@ -39,7 +39,7 @@ description:
 </div>
 
 <div class="social">
-	<a href="https://bitcointalk.org" target="_blank"><i class="fa fa-link fa-5x" aria-hidden="true"></i></a>
+	<a href="https://bitcointalk.org/index.php?topic=5322570.new#new" target="_blank"><i class="fa fa-link fa-5x" aria-hidden="true"></i></a>
 	<div class="name">Bitcointalk</div>
 </div>
 

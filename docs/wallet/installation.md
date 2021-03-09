@@ -194,21 +194,21 @@ It is important to verify the integrity of downloads before running them. Depend
 
 1. Get the sha256 hash of the release you download. These are provided on the Github release page either in a file called `sha256sums.txt` or as a plain text in the release notes. The format follows `SHA256(filename)= hash`. Here is an example of the hashes:
 ```
-SHA256(scalaris-1.0.0-arm-linux-gnueabihf-debug.tar.gz)= 77e6c3e5d1e6ef9f0d54a8f0fe3d638b1c6bd889e609c6a69bb8f82322117847
-SHA256(scalaris-1.0.0-arm-linux-gnueabihf.tar.gz)= 94705029ebf05b0aa2b0939dd0da0663e578accbf5dca8e9393456d9d40edde6
-SHA256(scalaris-1.0.0-i686-pc-linux-gnu-debug.tar.gz)= 30039c5eb3951a73d578f613d072a79610cb3983113cf816fbed485ce44bd57c
-SHA256(scalaris-1.0.0-i686-pc-linux-gnu.tar.gz)= c5c9013b5e0539a99825339f98a460281014b3dca5d970e24faa860b6fd0c0e7
-SHA256(scalaris-1.0.0-osx-unsigned.tar.gz)= 0d5be3dedc83521349b5def54c1f045f1cd35c67d8da5beb50c90beaa50ae659
-SHA256(scalaris-1.0.0-osx64.tar.gz)= 438b0b82001ca5ce0af8300061207f87421c3c9cfeab47dd4c56ebc856b357da
-SHA256(scalaris-1.0.0-win-unsigned.tar.gz)= 1f81058be74d3714f1e07f5b16562f471cd2da1fac8251b3c3d414dba5b0d271
-SHA256(scalaris-1.0.0-win32-debug.zip)= fdc15df95dbb1293d59a2a9b90bf421594b0dc27320cd09cf31dcc9073bb2a8e
-SHA256(scalaris-1.0.0-win32-setup-unsigned.exe)= c89200719d3e55f9f7eee1cf8f77a4a4c43d8c4551b896a4f0d7617a935f31e0
-SHA256(scalaris-1.0.0-win32.zip)= 60c0805f00fe4e1c1e93af2ef3e93fb0fbe3b7bcf2385f8192c1a176b4068c3f
-SHA256(scalaris-1.0.0-win64-debug.zip)= e739bf19e5d826ff9750c9ae9dfddf0bf17b9e6da2d90e094698c02171454a6f
-SHA256(scalaris-1.0.0-win64-setup-unsigned.exe)= 350d67cdb009a7b4d3101dae145caa9c69e8c7a2ca6252a4d97aedf33a5a3f9d
-SHA256(scalaris-1.0.0-win64.zip)= f1f472353f034e1151345c167a48a01d1ceafdd2b7a5b7a5cc82df9cbef6ce6d
-SHA256(scalaris-1.0.0-x86_64-linux-gnu-debug.tar.gz)= 998fa0487cc4e8fc2be9fb004cd6eb9bc0e91d690da110a5073e3f3b50bd2938
-SHA256(scalaris-1.0.0-x86_64-linux-gnu.tar.gz)= 9608a66feb4616092ddb2dbeeafef01f5c0c28b61cccf13bcd032cee3981be74
+01FE9434FB10D8B85057F293F0954545F0E2B8A2395216F6B306F0E2F9E12CF2  scalaris-1.0.0-aarch64-linux-gnu-debug.tar.gz
+1FBC2E9EA35C5FA9FB6D2324F19EA3E1635368645A2A5C7B17ED83668EB5B0DA  scalaris-1.0.0-aarch64-linux-gnu.tar.gz
+65379BD149CAB7900316B9BBFEC34C5C3B335CCBBF10D15AD83000223B09568B  scalaris-1.0.0-arm-linux-gnueabihf-debug.tar.gz
+BB3A33CA5458039A04DF53722E5BEDAF25329A61FFE6FE3C0B817ACC96A0A7E5  scalaris-1.0.0-arm-linux-gnueabihf.tar.gz
+66328428657815547E34F31A6878D62D131885C604672CC7CD4BBB6095869968  scalaris-1.0.0-osx-unsigned.dmg
+E220A716D81A5E9CFE92EE301EAD822E89AAE029DC5245CFA0C75EE5BB3C6E66  scalaris-1.0.0-osx-unsigned.tar.gz
+C8CB51C50DA34817ADEFC8A95FC0436D1761525ADC6539C3CB035990D8C1F8AC  scalaris-1.0.0-osx64.tar.gz
+66310D2B4ABE358D204EF6D0EC50EFA939A0F6C2C68B4422A0F621B9D6A614F1  scalaris-1.0.0-riscv64-linux-gnu-debug.tar.gz
+A1EF3E840A42EC147F4781D49ECB23414F15463B23EEBF56816460429C457E0D  scalaris-1.0.0-riscv64-linux-gnu.tar.gz
+48341900B1CB16C8A16589FF0F4D934EE6BA2C52C0F0A1289489DF7082FA48D7  scalaris-1.0.0-win-unsigned.tar.gz
+34B346FD917EF0A6CB2B725A191D85D84AD3A05BBA7E9E6A7855A0BB61C74246  scalaris-1.0.0-win64-debug.zip
+F132B7F40E1C453A1846F0C713C62A8FBB33DA971B0940686E9320B2472B3E00  scalaris-1.0.0-win64-setup-unsigned.exe
+53D853FAC697325CFFCAB9A0F6D1CFADE6C13022D98336372BEFAF9924CCD554  scalaris-1.0.0-win64.zip
+1CC6146F9BBF44B89B7282CAF98F2C5F07253867515457486152F4D5B041476E  scalaris-1.0.0-x86_64-linux-gnu-debug.tar.gz
+FF6BA1F0C5D8DDAEFCBA63A2CA694240F116266DBBB83E136A0ECDF8EAF3D4DE  scalaris-1.0.0-x86_64-linux-gnu.tar.gz
 ```
 1. Take a note of the hash for the specific file you downloaded.
 1. Get the sha256 hash of the file you downloaded:
