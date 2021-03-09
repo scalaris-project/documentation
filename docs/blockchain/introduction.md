@@ -14,7 +14,7 @@ SCA is the utility token that powers the Blocknet Protocol. Fees are paid in SCA
 Creation Date            | March 8th, 2021
 Asset                    | SCA                   
 Release Method           | ITO, AirDrops , PoW at start.
-Proof Type               | Proof of Work (PoW): blocks 0-5000<br>Proof of Stake (PoS): blocks 5001+
+Proof Type               | Proof of Work (PoW): blocks 0-2000<br>Proof of Stake (PoS): blocks 2001+
 Algo                     | Quark
 Block Time               | 60 seconds
 Block Reward             | 1.0 SCA
