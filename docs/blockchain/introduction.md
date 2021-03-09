@@ -11,7 +11,7 @@ SCA is the utility token that powers the Blocknet Protocol. Fees are paid in SCA
 
 |Scalaris Details           |                   |
 -------------------------|--------------------
-Creation Date            | March 5th, 2021
+Creation Date            | March 8th, 2021
 Asset                    | SCA                   
 Release Method           | ITO, AirDrops , PoW at start.
 Proof Type               | Proof of Work (PoW): blocks 0-5000<br>Proof of Stake (PoS): blocks 5001+
@@ -31,7 +31,7 @@ SuperBlock Period        | Every 42000 blocks.
 Maturity Time            | 100 +1 blocks.
 Stack Min Age            | 3600
 Vote Require Min Ammount | 2500 SCA + 1 extra fee by separate input's.
-Circulation              | <span id="spec_circulation">[View here](https://chainz.cryptoid.info/block/)</span>
+Circulation              | <span id="spec_circulation">[View here](https://explorer.scalaris.info)</span>
 Max Supply               | No maximum supply (PoS), but there is a maximum to inflation
 Circulation Lockup       | Average lockup is ~45% due to Service Node collateral <br>Average lockup is ~60% when also considering staked funds
 
@@ -51,7 +51,7 @@ Circulation Lockup       | Average lockup is ~45% due to Service Node collateral
 		return prettyNum;
 	}
 	function spec_getDifficulty() {
-		var url = "https://chainz.cryptoid.info/block/api.dws?q=getdifficulty";
+		var url = "https://explorer.scalaris.info/api/getdifficulty";
 		spec_ajax(url, false).then(function(data) {
 			if (!isNaN(Number(data))) {
 				var difficulty = spec_numberPretty(Math.round( Number(data) ));
@@ -60,11 +60,11 @@ Circulation Lockup       | Average lockup is ~45% due to Service Node collateral
 		});
 	}
 	function spec_getCirculation() {
-		var url = "https://chainz.cryptoid.info/block/api.dws?q=totalcoins";
+		var url = "https://explorer.scalaris.info/ext/getmoneysupply";
 		spec_ajax(url, false).then(function(data) {
 			if (!isNaN(Number(data))) {
 				var circulation = spec_numberPretty(Math.round( Number(data) ));
-				document.getElementById("spec_circulation").innerHTML = '<a href="https://chainz.cryptoid.info/block/" target="_blank">Currently ' + circulation + ' SCA</a>';
+				document.getElementById("spec_circulation").innerHTML = '<a href="https://explorer.scalaris.info" target="_blank">Currently ' + circulation + ' SCA</a>';
 			}
 		});
 	}
