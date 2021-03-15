@@ -9,6 +9,7 @@ description: Scalaris blockchain explorers, usually referred to as block explore
 The following is a list of Scalaris explorers:
 
 * [explorer.scalaris.info](https://explorer.scalaris.info/)
+* [https://openchains.info/coin/scalaris/blocks](https://openchains.info/coin/scalaris/blocks)
 
 A Scalaris blockchain explorer, usually referred to as a block explorer, is used to search and navigate the entire Scalaris blockchain. All public information on the blockchain is be accessible through the explorer including: 
 
