@@ -66,6 +66,32 @@ The selection of the staker that confirms each block is probability-based. This 
 
 		1440 minutes a day / 665 minutes per reward * 1 SCA per reward = 2.16 SCA
 
+	With SCA valued example at $2, that would equate to $4,32 per day and $1576,8 per year.
+
+
+### ROI
+Building off the probabilistic ratio above, the following equation can be derived to estimate the yearly return (in SCA) on the initial amount started with. This does not account for compounding, which would increase this value. 
+
+> Staking ROI = ( [525600] / [total SCA staked on the network] ) * 100
+
+* *525600 = 1 SCA reward per minute * 1440 minutes per day * 365 days per year*
+
+??? abstract "Example: Calculating staking reward ROI."
+	Assume:
+
+	* There's a total of 3,325,000 SCA staking on the network
+	* The amount you're staking is irrelevant because ROI is a per unit value
+
+	The yearly ROI under these conditions will be:
+
+		525600 / 3325000 = 0.158 * 100 = 15.8%
+
+	This means that in a year, if you staked 1000 SCA the rewards would be:
+
+		1000 * 0.158 = 158 SCA
+
+	With SCA valued at $2, that would equate to $316 per year.
+
 ---
 
 <!-- 
