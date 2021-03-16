@@ -25,7 +25,7 @@
 		return prettyNum;
 	}
 	function sb_getPrice() {
-		var url = "https://api.coingecko.com/api/v3/coins/blocknet/tickers";
+		var url = "https://api.coingecko.com/api/v3/coins/scalaris/tickers";
 		sb_ajax(url, true).then(function(data) {
 			if (data["tickers"][0]["converted_last"]["usd"]) {
 				var price = data["tickers"][0]["converted_last"]["usd"];

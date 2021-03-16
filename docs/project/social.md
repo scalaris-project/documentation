@@ -7,6 +7,8 @@ description:
 ---
 
 
+<div id="bn-social-group">
+
 
 <div class="social">
 	<a href="https://scalaris.info" target="_blank"><i class="fa fa-external-link fa-5x" aria-hidden="true"></i></a>
@@ -46,15 +48,6 @@ description:
 
 
 </div>
-
-
-
-
-
-
-
-
-
 
 
 
