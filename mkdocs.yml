@@ -57,6 +57,7 @@ nav:
   - 'Introduction': 'project/introduction.md'
   - 'Exchanges': 'project/exchanges.md'
   - "Whitepaper <i class='fa fa-external-link' aria-hidden='true'></i>": 'project/whitepaper.pdf'
+  - 'Roadmap': 'project/roadmap.md'
   - 'Governance': 'governance/introduction.md'
   #- 'Contributors': 'project/contributors.md'
   - 'Social': 'project/social.md'
