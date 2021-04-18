@@ -25,6 +25,7 @@ Decentralized exchanges are purely peer-to-peer instead of requiring a trusted e
 
 
 * [__Scalaris DX__](/scalarisdx/setup)
+* [__Komodo AtomicDEX__](https://komodoplatform.com/en/wallets.html)
 
 !!! info "Note: For trade at Scalaris DX is require fixed Taker fee 0.01 at SCA, for Place orders no fee."
 
