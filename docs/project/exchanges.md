@@ -12,7 +12,9 @@ Centralized exchanges are one of the most popular ways to trade cryptocurrency. 
 
 Exchange        | Market        | Link
 ----------------|---------------|------
-BitSails            | BTC/SCA   | [Buy Now](https://www.bitsails.com/market?MarketName=BTC-SCA)
+Exbitron            | BTC/SCA   | [Buy Now](https://www.exbitron.com/trading/scabtc)
+Exbitron            | USDT/SCA   | [Buy Now](https://www.exbitron.com/trading/scausdt)
+Exbitron          | TRX/SCA   | [Buy Now](https://www.exbitron.com/trading/scatrx)
 <!--Bittrex Global  | (BTC/SCA)   | [Buy Now](https://global.bittrex.com/Market/Index?MarketName=BTC-SCA)
 DigiFinex       | (BTC/SCA)   | [Buy Now](https://www.digifinex.io/en-ww/trade/BTC/SCA)
 VCC Exchange    | (BTC/SCA)   | [Buy Now](https://vcc.exchange/exchange/basic?currency=btc&coin=block)
